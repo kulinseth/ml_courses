@@ -2,3 +2,5 @@
 *.data
 *.names
 *.csv
+*.json
+*.zip
