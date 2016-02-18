@@ -17,22 +17,22 @@ The [Lab assignments](https://github.com/oxford-cs-ml-2015/) are:
 ## Exercises
 
 1. ProblemSet1 - Linear algebra review, linear regression, probability ...
-..1. Scale mixtures of Gaussians and applying that trick to natural images
-..2. Linear regression and regularization
-..3. Eigendecompositions, SVD and applying it on some test images
+  1. Scale mixtures of Gaussians and applying that trick to natural images
+  2. Linear regression and regularization
+  3. Eigendecompositions, SVD and applying it on some test images
 
 2. ProblemSet2 - Collaborative filtering
-..1. Applying it to Movie recommendation in Torch
-..2. Applying it to Missing votes in Torch
+  1. Applying it to Movie recommendation in Torch
+  2. Applying it to Missing votes in Torch
 
 3. ProblemSet3 - Logistic, Neural nets
-..1. Log-likelihood and logistic regression
-..2. Similarly for multinomial logistic regression
-..3. NN and XOR gate
-..4. ReLU and dropout
+  1. Log-likelihood and logistic regression
+  2. Similarly for multinomial logistic regression
+  3. NN and XOR gate
+  4. ReLU and dropout
 
 4. ProblemSet4 - Review, compare and contrast these papers 
-..1. [Very deep CNN](http://arxiv.org/abs/1409.1556)
-..2. [Going deeper with convolutions](http://arxiv.org/abs/1409.4842)
+  1. [Very deep CNN](http://arxiv.org/abs/1409.1556)
+  2. [Going deeper with convolutions](http://arxiv.org/abs/1409.4842)
 
 
