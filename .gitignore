@@ -5,3 +5,7 @@
 *.json
 *.zip
 *.ipynb_checkpoints
+*.aux
+*.fls
+*.log
+*.gv
