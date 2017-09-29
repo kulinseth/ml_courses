@@ -22,45 +22,24 @@
 \maketitle
 
 
+\section{Gradient Descent}
+In this section we study the effects of Gradient descent optimization technique on some
+functions and a dataset. The gradient descent has within it different varieties to it namely batch
+gradient descent where all the training examples are used for updating of the parameter,
+stochastic gradient descent where we start updating the parameters per training example. There
+is mini-batch technique which lies in between this continuum, where the data set is divided into batches
+and the training examples in the batch are used to make a parameter update.
 
-\section{Probabilities [30 pt, Field Cady]}
-Probability is, in many ways, the most fundamental mathematical technique for
-machine learning. This problem will review several basic notions from
-probability and make sure that you remember how to do some elementary proofs.
+\subsection{Batch Gradient Descent} 
+We implemented a basic gradient descent technique to minimize two scalar functions: negative
+gaussian and quadrature bowl. We study the effect of the step-size, initial guesses, convergence
+criteria on the resulting solution as well as the norm of the gradient.
 
-Recall that for a discrete random variable (r.v.) X whose values are integers,
-we frequently use the notation $P(X=x)$ for the probability its value is $x$. If the r.v. Y is \emph{continuous}, we typically use a ``density function'' $p(Y=y)$. The
-conditions for $P(X=x)$ to be a valid probability distribution are that
-$\sum_{-\infty}^{\infty}p(X=x)=1$ and $P(X=x) \geq 0 \forall x$. Similarly for $p(Y=y)$ to
-be a valid continuous distribution, $\int_{-\infty}^{\infty}p(Y=y)dy=1$ and $p(Y=y)
-\geq 0$.
+The  minimum values are compared 
 
-Sometimes the underlying probability space has more than one variable (for
-example, the height and weight of a person).  In this case, we may use notation
-like $p(X=x,Y=y)$ to denote the probability density function in several
-dimensions.
-
-\subsection{Expectations [10 pt]} Expectation is another word for ``mean''.  They are
-similar to ``average''; the difference is that an average usually refers to the
-average of some data we collected, whereas expectation usually refers to the
-underlying distribution from which we have sampled.  For a discrete r.v. X, the
-expectation value is defined to be $E[X]=\sum_{-\infty}^{\infty}i P(X=i)$. If Y
-is a continuous random variable, $E[Y]=\int_{-\infty}^{\infty}y p(y)dy$.
-\begin{enumerate}
-\item Show that, for discrete r.v. W and Z, $E[W+Z]=E[W]+E[Z]$.
-\item Show that, for \emph{continuous} r.v. W and Z, $E[W+Z]=E[W]+E[Z]$.
-\end{enumerate}
-
-\subsection{Independence [10 pt]}
-Intuitively, two r.v. X and Y are ``independent'' if knowledge of the value of
-one tells you nothing at all about the value of the other. Precisely, if X and
-Y are discrete, independence means that $P(X=x,Y=y)=P(X=x)P(Y=y)$, and if they are continuous,
-$p(X=x,Y=y)=p(X=x)p(Y=y)$.  Show the following, for \emph{independent} r.v. X
-and Y:
-\begin{enumerate}
-\item If X and Y are discrete, $E[XY]=E[X]E[Y]$.
-\item If X and Y are \emph{continuous}, $E[XY]=E[X]E[Y]$.
-\end{enumerate}
+\subsection{Finite Difference}
+The central difference approximation is given by: 
+$$f'(x) = \frac {f(x+\delta x) - f(x - \delta x)}{2*\delta x}$$
 
 \subsection{Variance [10 pt]}
 Variance for a r.v. X indicates how ``spread out'' the distribution is.
