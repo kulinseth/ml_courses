@@ -1,0 +1,130 @@
+\title{Assignment 1: Written Exercises}
+\author{Kulin Seth}
+\date{\today}
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}  % set the margins to 1in on all sides
+\usepackage{graphicx}              % to include figures
+\usepackage{amsmath}               % great math stuff
+\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % better theorem environments
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+
+% For derivatives
+\newcommand{\deriv}[2]{\frac{\mathrm{d}}{\mathrm{d} #1}{#2}}
+
+% For partial derivatives
+\newcommand{\pderiv}[2]{\frac{\partial}{\partial #1} (#2)}
+
+% Integral dx
+\newcommand{\dx}{\mathrm{d}x}
+
+\begin{document}
+\maketitle
+\pagebreak
+
+\section{Question 1}
+Variance of a sum. Show that the variance of a sum  is
+
+$\Var[X + Y] = \Var[X] + \Var[Y ] + 2 * \Cov[X,Y]$
+
+where $\Cov[X,Y ]$ is the covariance between random variables X and Y.
+
+
+\section {Question 2}
+
+\pagebreak
+\section {Question 3}
+Gradient and Hessian of log-likelihood for logistic regression.
+\subsection{a} 
+Let
+
+\begin{equation}
+    \rho(a) = \frac{1}{1+\exp^{-a}}
+\end{equation}
+
+be the sigmoid function. Show that :
+
+\begin{equation}
+    \deriv{a}{\rho(a)} = \rho(a)(1 − \rho(a))
+\end{equation}
+
+
+\textbf{Proof}
+
+Differentiating $\rho(a)$ w.r.t $a$ we get :
+
+\textbf{L.H.S}
+
+    \begin{align*}
+        \deriv{a}{\rho(a)}  &= \deriv{a}{\left( \frac{1}{1 + e^{-a}} \right) }\\
+                            &= \left( \frac{-1}{(1 + e^{-a})^{2}} \right) \deriv{a}{\left( 1 + e^{-a} \right)} 
+                            && \text{Reciprocal rule:}\frac{1}{f} \rightarrow \frac{-f\prime}{f^2} \\
+                            &= \left( \frac{-1}{(1 + e^{-a})^2} \right) \left( -{e^{-a}} \right)
+                            && \text{Derivative of:} e^{-a} \rightarrow -e^{-a} \\
+                            &= \frac{e^{-a}}{(1 + e^{-a}) ^ 2} && \text {Simplifying} 
+    \end{align*}
+
+Substituting $\rho(a)$ on the R.H.S we get:
+
+\textbf{R.H.S}
+
+        \begin{align*}
+            \rho(a)(1 - \rho(a)) &= \frac{1}{1+e^{-a}} \left( 1-\frac{1}{1+e^{-a}} \right)
+                                 && \text{(substituting)}\\
+                                 &= \frac{\exp^{-a}}{(1 + \exp^{-a})^2} && \text{(simplifying)}
+        \end{align*}
+
+$R.H.S \iff L.H.S$ hence proved.
+
+\pagebreak
+
+\subsection{b} 
+
+Using the previous result and the chain rule of calculus, derive the expression for the gradient
+of the log likelihood given in HTF Eqn. 4.21.
+
+Equation (4.20) states:
+
+\begin{equation} \label{eq:4.20a}
+l(\beta) = \displaystyle\sum_{i=1}^{N} \left \{ y_i \log p(x_i;\beta)
++ (1-y_i) \log (1 - p(x_i;\beta)) \right \}
+\end{equation}
+
+\begin{equation} \label{eq:4.20b}
+l(\beta) = \displaystyle\sum_{i=1}^{N} \left \{ y_i \beta^T x_i 
+- log (1 + \exp^{\beta^{T}x_i}) \right\}
+\end{equation}
+
+We can get from \eqref{eq:4.20a} to \eqref{eq:4.20b} by substituting 
+
+    \[
+        p(x_i;\beta) = \frac{e^{{\beta}^Tx_i}}{1+{e^{{\beta}^Tx_i}}}
+    \]
+
+\textbf{PROOF}
+
+    To Prove:
+
+    \[
+        \pderiv{\beta}{l(\beta)} = \displaystyle\sum_{i=1}^{N} x_i(y_i-p(x_i;\beta))
+    \]
+
+    Differentiating \eqref{eq:4.20b} w.r.t to $\beta$ on both sides we get:
+    
+    \begin{align*}
+        \pderiv{\beta}{l(\beta)}&= \pderiv{\beta}{
+                                \displaystyle\sum_{i=1}^{N}(y_i\beta^Tx_i -log(1 + \exp^{\beta^{T}x_i}))}\\
+                                &=\displaystyle\sum_{i=1}^{N} (\pderiv{\beta}{y_i\beta^Tx_i}) -
+                                (\pderiv{\beta}{log(1 + \exp^{\beta^{T}x_i}))} && \text{moving derivative inside}\\
+                                &=\displaystyle\sum_{i=1}^{N}y_ix_i -\frac{1}{1 + e^{\beta^{T}x_i}}(x_i e^{\beta^{T}x_i})
+    \end{align*}
+
+\subsection{c} 
+
+As noted in HTF Eqn. 4.25, the Hessian matrix for the log likelihood can be written 
+(up to a sign) as $X^TWX$ . Prove that this matrix is positive definite.
+
+\end{document}

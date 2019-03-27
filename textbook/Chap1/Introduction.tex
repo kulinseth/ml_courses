@@ -1,0 +1,37 @@
+\title{Chapter1 : Introduction}
+\author{Kulin Seth}
+\date{\today}
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}  % set the margins to 1in on all sides
+\usepackage{graphicx}              % to include figures
+\usepackage{amsmath}               % great math stuff
+\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % better theorem environments
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+
+\begin{document}
+The book introduces Statistical Learning by providing three different examples.
+
+\section{Email Spam}
+The data used was downloaded from \href{https://archive.ics.uci.edu/ml/datasets/Spambase}{Spam}
+dataset as part of UCI reporsitory. Its a classification problem where you want to filter out
+spam without losing any relevant emails. The data has features like certain \textit{WORD} 
+frequency, \textit{Special} character frequency, word length etc. This is used to classify
+whether email is spam or not.
+
+\section{Prostate Cancer}
+The goal is to predict the \textit{lpsa} log of PSA antigen in prostate cacncer using different
+clinical features. This was more of a regression problem.
+
+\section{Digit Recognition}
+Handwritten ZIP code database is used to classify different digits for USPS. The images have
+been normalized to 16x16 image. This is a classification problem. Here the error-rate needs
+to be low, so above a certain threshold the mail get classified into "Dont Know" category.
+These are then classified by hand.
+
+\section{Gene Expression Microarrays}
+
+\end{document}
