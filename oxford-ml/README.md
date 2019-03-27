@@ -1,4 +1,4 @@
-#Oxford Machine Learning course
+# Oxford Machine Learning course
 
 Tracks Homeworks, assignments of [Oxford ML course](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/). The Lab
 work is done in Torch. Some of the assignments have implementation component which is again implemented in Torch
