@@ -1,0 +1,213 @@
+\documentclass[11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{epsfig}
+\usepackage{pgf}
+\usepackage{graphicx}
+ \usepackage{amssymb}
+\usepackage{url}
+\def\urltilda{\kern -.15em\lower .7ex\hbox{\~{}}\kern .04em}
+
+    \oddsidemargin  0.0in
+    \evensidemargin 0.0in
+    \textwidth      6.5in
+    \headheight     0.0in
+        \headsep        0.0in
+    \topmargin      0.0in
+    \textheight=9.0in
+
+\begin{document}
+\title{Machine Learning 6.867: HW 1}
+\author{Anonymous Authors}
+\maketitle
+
+
+\section{Gradient Descent}
+In this section we study the effects of Gradient descent optimization technique on some
+functions and a dataset. The gradient descent has within it different varieties to it namely batch
+gradient descent where all the training examples are used for updating of the parameter,
+stochastic gradient descent where we start updating the parameters per training example. There
+is mini-batch technique which lies in between this continuum, where the data set is divided into batches
+and the training examples in the batch are used to make a parameter update.
+
+\subsection{Batch Gradient Descent} 
+We implemented a basic gradient descent technique to minimize two scalar functions: negative
+gaussian and quadrature bowl. We study the effect of the step-size, initial guesses, convergence
+criteria on the resulting solution as well as the norm of the gradient.
+
+The  minimum values are compared 
+
+\subsection{Finite Difference}
+The central difference approximation is given by: 
+$$f'(x) = \frac {f(x+\delta x) - f(x - \delta x)}{2*\delta x}$$
+
+\subsection{Variance [10 pt]}
+Variance for a r.v. X indicates how ``spread out'' the distribution is.
+Precisely, if $\bar{X}=E[X]$, the variance is defined to be
+$Var[X]=E[(X-\bar{X})^2]$. Show the following:
+\begin{enumerate}
+\item For a (discrete \emph{or} continuous) random variable X,
+    $Var[X]=E[X^2]-(E[X])^2$.
+
+    \emph{Hint: you don't have to treat
+    the discrete and continuous cases separately; it can be done
+    just using expectation.}
+\item Let X be continuous, and let it follow the celebrated
+    normal distribution: $p(X=x)=\frac{1}{\sqrt{2\pi \sigma^2}}e^{(x-\mu)^2/(2\sigma^2)}$,
+    where $\sigma$ can be any positive real number, and $\mu$ can be
+    any real number.  Show that $Var[X]=\sigma^2$.
+\end{enumerate}
+
+
+\section{Decision Trees and Information Theory [35+5 pt, Ni Lao]}
+Suppose a discrete variable $X$ has $n$ categories $1...n$. It's entropy is defined as \begin{displaymath}
+H(X)=-\sum_i {P(X=i)\log{P(X=i)}}.
+\end{displaymath}
+Suppose another variable $Y$ has distribution $P(Y=j)$, and
+joint distribution $P(X=i,Y=j)$. Then their mutual information is
+\begin{displaymath}
+I(X;Y)=\sum_{i,j} P(X=i,Y=j) \log \frac{P(X=i,Y=j)}{P(X=i) P(Y=j)}=H(X)-H(X|Y)=H(Y)-H(Y|X)
+\end{displaymath}
+A \textit{K-nary code} $C$ for $X$ is a mapping from $X$ to a string
+(code word) $C(X)$ of which each character can have $K$ values. A
+\textit{prefix code} is a code for which no code word is a prefix of
+other code word. The average code length is defined as $L(C)=\sum_i {P(X=i) l_i}$
+where $l_i$ is the length of $C(i)$. It can be proved that $H(X)$ is
+the minimum average code length needed to encode $X$, and the
+minimum is reached if and only if $P(X=i)= K^{-l_i}$.
+
+%to 0, then we have $q_i=p_i$
+\begin{enumerate}
+%\item
+%\textbf{The optimal encoding problem [10 pt]} A (binary) \textit{code} $C$ for
+%$X$ is a mapping from $X$ to a binary string (code word) $C(X)$. A
+%\textit{prefix code} is a code for which no code word is a prefix of other code
+%word. The average code length is $L(C)=\sum_i {p_i l_i}$ where $l_i$ is the
+%length of $C(i)$. \textbf{Proof} that $H(X)$ is the minimum average code length
+%needed to encode $X$.
+%%For simplicity, let's assume that $p_i=2^{-m_i}$, where $n_i$ is an integer.
+%\textbf{Hint:} Minimizes $L(C)$ with the constraint that $\sum_i {2^{-l_i}}
+%\leq 1$ (Kraft Inequality). \textbf{More hint:} Use the Lagrangian Multiplier
+%Method.
+
+\item
+\textbf{The 9 ball problem [10 pt]} There are 9 metal balls. One of then is
+heavier than the others. Please design a strategy given a scale to find out
+which one is heavier with the least number of expected trials. Then show that
+it is optimal from information point of view. \textbf{Hint:} connect the
+average code length with the expected number of tests.
+
+\item
+\textbf{Information gain and optimal encoding [10 pt]} show that, when using
+$K$-outcome tests, if each test $Y_t$ has optimal mutual information
+$I(Y_t;X|Y_1 ...Y_{t-1})=1$ (in base $K$ numeral system) conditioned on all
+previous tests, then the expected number of tests is optimal. Assume that the
+mapping from $X$ to $Y_t$ are deterministic ($H(Y_t|X)=0$). \textbf{Hint:}
+$H(Y) \geq I(X;Y)$.
+%\textbf{More hint:} use the result of the first problem.
+%the expected code length  a $k$-nary code  encoding $
+%\textbf{More hint:} $H(X|Y) \geq H(X)-H(Y)$
+
+\item
+\textbf{The ID3 algorithm [10 pt]} If we run the ID3 algorithm on the 9 metal
+ball problem, will it generate the optimal decision tree? \textbf{Hint:} treat
+the outcome of comparing any two sets of balls as a feature, and compare their
+information gains.
+
+%\item
+%\textbf{The syphilis test problem [5 pt]} Now we have blood sample of $n$
+%person ($n \gg 1$), and we know that $m$ ($m \ll n$)  of them have been
+%infected by syphilis. In order to find out which ones are they, what is the
+%minimum expected number of syphilis test we need to do? Briefly describe your
+%strategy. \textbf{Hint:} we can do syphilis test on a mixture of several
+%people's blood.
+%%each of them have probability $p$ ($p \ll 1$) been infected by syphilis
+
+\item
+\textbf{The number guessing problem [5 pt]} Alice has a favorite four digit number
+ (e.g. $0123$), and she wants Bob to guess it. At each
+iteration, Bob say a four digit number (e.g. $3210$), and then Alice tell him
+how many digit is correct (four in this example), and how many of them have
+correct position (zero in this example). From information point of view, what is the minimum expected number of guesses
+Bob has to make in order to identify the number?
+
+\item
+\textbf{[Extra 5 pt]}
+%Briefly describe your strategy.
+Try the number guessing game a few times with your friend. Did you achieve your estimated lower bound? Why?
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{KNN and Decision Trees [35 pt, Amr]}
+
+\begin{enumerate}
+\item \textbf{(10 points)}
+For each of the following figures, we are given a few data points in
+2-d space,each of which is labeled as either positive (blue) or
+negative (red). Assuming that we are using L2 distance as a distance
+metric, draw the decision boundary for 1-NN for each case. For
+example, the decision boundary for the dataset in 1.b is given in
+figure 2.a.
+
+\begin{figure*}[h!]
+\centering
+  \begin{tabular}{cccc}
+  \end{tabular}
+  \caption{Data sets for problem 3.}
+ \end{figure*}
+
+
+\item \textbf{(3 points)} In class we have mentioned that NN is a \emph{lazy}
+classifier that needs to store all training instances until test
+time. However,  in this problem we were able to draw a decision
+boundary for the 1-NN classifier. If we decided to store this
+decision boundary instead of storing all training data, would that
+\emph{always} result in an improvement in terms of storage  (memory)
+requirement for this classifier?  [Please answer in no longer than
+2-5 sentences]
+
+\item \textbf{(2 point)}
+Decision trees are known as batch learners that require the
+availability of all training data to build the tree. Thus the
+arrival of additional training data needs to be handled carefully.
+Does KNN suffer from this problem and why?
+
+
+\item
+We would like to build a decision tree over the dataset in Figure
+1.d. Each data item is described using two continuous attributes
+$(x,y)$. One way of handing continuous attributes is discretization,
+here we will use binary-discretization and test if a given attribute
+is $\geq$ a given threshold which we will take to be the midpoint.
+For instance, in Figure 1.d, the range of both $X$ and $Y$ is
+[-4,4], thus the test at the first level of the tree is either $x
+\geq 0$ or $y \geq 0$. In the next level, we might test for $x \geq
+2$,$x \geq -2$, $y \geq 2$, etc.  In other words, we  always
+consider the current range of both attributes in the training data
+at a given leaf node, and formulate a test that would divide this
+range into two equal parts.  For instance, if we apply this scheme
+to the data in Figure 1.c, we get the decision boundary in Figure
+2.b (other solutions are possible as well).
+
+\begin{enumerate}
+\item \textbf{(2 points)}
+What would you expect the training error to be if we apply the above scheme
+to the data in Figure 1.d? and why?
+
+\item \textbf{(7 points)}
+To limit the size of the resulting decision tree,
+we will stipulate that any single attribute is
+tested at most twice on any path from the root of the tree to a a
+leaf node. With this restriction,  draw the decision boundary of a
+possible decision tree over the data in Figure 1.d. you don't need
+to do any calculations, just draw the decision boundary that
+corresponds to a suitable decision tree.
+\end{enumerate}
+
+
+\item \textbf{(4 points)} Using the intuition you gained in this
+problem, state one advantage of Decision Trees over KNN and one advantage of
+KNN over Decision Trees.
+\end{enumerate}
+
+\end{document}
