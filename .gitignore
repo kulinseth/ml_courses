@@ -9,3 +9,4 @@
 *.fls
 *.log
 *.gv
+.DS_Store
