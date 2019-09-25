@@ -1,6 +1,9 @@
 # ML interview questions:
 
 1. What is A/B testing, explain using an example?
+   Why do we need hypothesis testing? What is P-Value?
+   What is the null hypothesis? How do we state it?
+   Do you know what Type-I/Type-II errors are?
 
    The A/B testing is a randomized experiment done to test 2 samples namely A
    and B of a random variable. Its a form of statistics hypothesis testing,
@@ -120,7 +123,15 @@
    Lasso regression = RSS + L1Norm
    [Source](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
 
-12. If you could take advantage of multiple CPU cores, would you prefer a boosted-tree algorithm over a random forest? Why? (Hint: if you have 10 hands to do a task, you take advantage of it)
+12. If you could take advantage of multiple CPU cores, would you prefer
+    a boosted-tree algorithm over a random forest? Why?
+    (Hint: if you have 10 hands to do a task, you take advantage of it)
+
+    Both are ensemble methods.
+
+    Gradient Boosted tree algorithm: this seems like an iterative algorithm.
+    Here the trees are built taking into account the errors made by previously
+    trained tree.
 
 Background questions:
 
@@ -258,9 +269,6 @@ How to interpret confidence intervals?
 Testing
 Hypothesis tests
 
-Why do we need hypothesis testing? What is P-Value?
-What is the null hypothesis? How do we state it?
-Do you know what Type-I/Type-II errors are?
 What is -Test/-Test/ANOVA? When to use it?
 How would you test if two populations have the same mean? What if you have 3 or 4 populations?
 You applied ANOVA and it says that the means are different. How do you identify the populations where the differences are significant?
@@ -552,7 +560,8 @@ finally apply some ML algorithm to this dataset.
 Or just the last two, with a ready to use dataset in tabular form.
 
 Sources
-I had to work through a lot of sources to make this compilation. I did not include all the questions I came across, just the ones that made sense or ones I really got during my interviews. It also, of course, includes my own interviews.
+I had to work through a lot of sources to make this compilation. I did not include all the questions I came across,
+just the ones that made sense or ones I really got during my interviews. It also, of course, includes my own interviews.
 
 Facebook Data Science Interview Questions
 1)         A building has 100 floors. Given 2 identical eggs, how can you use them to find the threshold floor? The egg will break from any particular floor above floor N, including floor N itself.
@@ -1218,6 +1227,13 @@ How to quickly find if a text contains one of a million substrings. (Prefix tree
 Explain word embeddings. How are they learned?
 
 What is Stochastic Gradient Descent. Describe it in your own words?
+
+Basically update weights in the network or the algorithm, depending on the
+direction of steepest descent :
+
+Wt+1 = Wt - alph * Grad(L)
+alph = learning rate.
+Grad = gradient of the loss function
 
 Explain the difference between Gradient Descent and Stochastic Gradient Descent. When use which?
 
