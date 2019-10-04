@@ -218,6 +218,8 @@ Linear Algebra
 3. What is an Eigenvalue? And what is an Eigenvector? What is Eigenvalue Decomposition or The Spectral Theorem?
 4. What is Singular Value Decomposition?
 
+
+## Statistics
 Probability
 
 1. Given two fair dices, what is the probability of getting scores that sum to 4? to 8?
@@ -245,7 +247,7 @@ Basic Statistics
 Experiment Design
 * Designing experiments is an important part of Statistics, and it’s especially useful for doing A/B tests.
 
-Sampling and Randomization
+###Sampling and Randomization
 
 Why do we need to sample and how?
 Why is randomization important in experimental design?
@@ -295,8 +297,7 @@ Bootstrapping - how and why it is used?
 How to use resampling for hypothesis testing? Have you heard of Permutation Tests?
 How would you apply resampling to time series data?
 
-Machine Learning
-In my experience, the Machine Learning part is usually the largest part of the interview. It may be a few basic questions, but it’s helpful to be prepared to more in-depth Machine Learning questions, especially if you claim to have worked with it on your CV.
+##Machine Learning
 
 General ML Questions
 The ML part may start with something like:
@@ -322,6 +323,8 @@ What is Ridge Regression? How is it different from OLS Regression? Why do we nee
 What is Lasso regression? How is it different from OLS and Ridge?
 Linear Regression assumptions:
 
+Function is a linear combination of the x dimension values. 
+RSS: residual sum of squares..
 What are the assumptions required for linear regression?
 What if some of these assumptions are violated?
 Significant features in Regression

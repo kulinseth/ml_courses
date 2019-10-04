@@ -1,0 +1,2846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexus>
+  <name>6.867</name>
+  <longName>Machine Learning</longName>
+  <description>&lt;br /&gt;
+ &lt;b&gt;Piazza:&lt;/b&gt; &lt;br /&gt;
+ 
+
+&lt;p&gt;We will use Piazza for making announcements, and managing
+discussions:&lt;br /&gt;
+&lt;a
+href="https://piazza.com/class#fall2017/6867"&gt;https://piazza.com/class#fall2017/6867&lt;/a&gt;&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;b&gt;Description:&lt;/b&gt;&lt;br /&gt;
+ 
+
+&lt;p&gt;Principles, techniques, and algorithms in machine learning from
+the point of view of statistical inference; representation,
+generalization, and model selection; and methods such as
+linear/additive models, active learning, boosting, support vector
+machines, non-parametric Bayesian methods, hidden Markov models,
+and Bayesian networks. The course will give the student the basic
+ideas and intuition behind modern machine learning methods as well
+as a bit more formal understanding of how, why, and when they work.
+The underlying theme in the course is statistical inference as it
+provides the foundation for most of the methods covered.
+Recommended prerequisite: 6.036.&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;b&gt;Books:&lt;/b&gt; &lt;br /&gt;
+ 
+
+&lt;p&gt;• [B] Pattern Recognition and Machine Learning, Bishop;
+Springer, 2007.&lt;br /&gt;
+• [EH] Computer Age Statistical Inference, Efron and Hastie;
+Cambridge University Press, 2016.&lt;br /&gt;
+ • [JWHT] An Introduction to Statistical Learning: , James, Witten,
+Hastie, Tibshirani; Springer, 2013. Easy read, very pragmatic.&lt;/p&gt;</description>
+  <createdDate>2017-08-23 21:49:47.0</createdDate>
+  <createdBy>system</createdBy>
+  <getLastModifiedDate>Tue Dec 05 23:36:15 EST 2017</getLastModifiedDate>
+  <getLastModifiedBy />
+  <status>0</status>
+  <identifier>-55a5cd00:15e0ff76e12:d4e:12092f49</identifier>
+  <attributes>
+    <link2text />
+    <link10text />
+    <skin>mit</skin>
+    <infoTextLabel>Course Information</infoTextLabel>
+    <link11arrow />
+    <meeting3time />
+    <link23href>help/stellarhelp.html</link23href>
+    <meeting3type />
+    <sectionsLastSwitchDay>14</sectionsLastSwitchDay>
+    <link4href>calendar.html</link4href>
+    <link22arrow>search.html</link22arrow>
+    <enableTransfer>true</enableTransfer>
+    <link7text>Homework</link7text>
+    <timezones>America/New_York</timezones>
+    <link15text>Forum</link15text>
+    <link12href />
+    <link3arrow>materials.html</link3arrow>
+    <link9href />
+    <link18arrow />
+    <link17href />
+    <showOcwLink>true</showOcwLink>
+    <masterSubjectID>6.867</masterSubjectID>
+    <link20text>Staff List</link20text>
+    <link1text>Class Home</link1text>
+    <link12arrow />
+    <infoTextPublic>true</infoTextPublic>
+    <link23arrow>help/stellarhelp.html</link23arrow>
+    <meeting2time>Fri: 9am (26-322), 9am (36-144), 10am (36-144), 10am (26-322), 11am (36-144), 11am (26-322), 12pm (56-154), 12pm (26-322), 1pm (56-154), 1pm (26-322), 2pm (26-322), 2pm (56-154), 3pm (26-322), 3pm (56-154), 4pm (26-322), 4pm (56-154)</meeting2time>
+    <link22href>search.html</link22href>
+    <meeting2type>Recitation</meeting2type>
+    <link4arrow>calendar.html</link4arrow>
+    <link6text />
+    <link3href>materials.html</link3href>
+    <showTopicsDetails>true</showTopicsDetails>
+    <link14text />
+    <link11href />
+    <link19arrow>people/membership.html</link19arrow>
+    <meeting5location />
+    <link8href>gradebook3/</link8href>
+    <showLink23>true</showLink23>
+    <showLink22>true</showLink22>
+    <showLink21>false</showLink21>
+    <link16href>Space</link16href>
+    <link19text>Membership</link19text>
+    <showLink20>true</showLink20>
+    <meeting3location />
+    <link13arrow />
+    <homePageImageCaptionXml>&lt;p&gt;Image taken from &lt;a
+href="https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer"&gt;
+https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer&lt;/a&gt;&lt;/p&gt;</homePageImageCaptionXml>
+    <link5arrow>schedule.html</link5arrow>
+    <descriptionIsXml>true</descriptionIsXml>
+    <meeting1time>Tues/Thurs: 2.30-4</meeting1time>
+    <link21href />
+    <meeting1type>Lecture</meeting1type>
+    <showLink9>false</showLink9>
+    <link5text>Schedule</link5text>
+    <link2href />
+    <showLink8>true</showLink8>
+    <showLink19>true</showLink19>
+    <showLink7>true</showLink7>
+    <showLink18>false</showLink18>
+    <showLink6>false</showLink6>
+    <showLink17>false</showLink17>
+    <link13text />
+    <link10href />
+    <showRSS>false</showRSS>
+    <showLink5>false</showLink5>
+    <showLink16>true</showLink16>
+    <showLink4>true</showLink4>
+    <showLink15>true</showLink15>
+    <showLink3>true</showLink3>
+    <showLink14>false</showLink14>
+    <publicHome>true</publicHome>
+    <showLink2>false</showLink2>
+    <showLink13>false</showLink13>
+    <meeting1location>26-100</meeting1location>
+    <showLink12>false</showLink12>
+    <showLink1>true</showLink1>
+    <showLink11>false</showLink11>
+    <showLink10>false</showLink10>
+    <link7href>homework/index.html</link7href>
+    <link14arrow />
+    <link18text />
+    <link15href>forum-ng/</link15href>
+    <link6arrow />
+    <enableJive>true</enableJive>
+    <link7arrow>homework/</link7arrow>
+    <link23text>Help</link23text>
+    <link20href>people/stafflist.html</link20href>
+    <link1href>index.html</link1href>
+    <link4text>Calendar</link4text>
+    <link12text />
+    <meeting5time />
+    <link15arrow>forum-ng/</link15arrow>
+    <meeting5type />
+    <link9text />
+    <link6href />
+    <link17text />
+    <link14href />
+    <link20arrow>people/stafflist.html</link20arrow>
+    <link8arrow>gradebook3/</link8arrow>
+    <link19href>people/membership.html</link19href>
+    <section>Lecture</section>
+    <term>Fall 2017</term>
+    <defaultWorldLogin>true</defaultWorldLogin>
+    <showContentDetails>true</showContentDetails>
+    <link22text>Search</link22text>
+    <sectionsLastSwitchMonth>9</sectionsLastSwitchMonth>
+    <link3text>Materials</link3text>
+    <sectionsLastSwitchYear>2017</sectionsLastSwitchYear>
+    <meeting4location />
+    <link16arrow>No Arrow</link16arrow>
+    <link11text />
+    <meeting2location />
+    <meeting4time />
+    <meeting4type />
+    <link8text>Gradebook Module</link8text>
+    <link5href>schedule.html</link5href>
+    <link10arrow />
+    <link13href />
+    <link16text />
+    <link21arrow />
+    <sectionsAllowSwitch>true</sectionsAllowSwitch>
+    <link9arrow />
+    <homePageImageAlt>home page image</homePageImageAlt>
+    <readOnly>false</readOnly>
+    <membershipCourseGroupId>185371</membershipCourseGroupId>
+    <link2arrow />
+    <link18href />
+    <membershipIntegrationEnabled>true</membershipIntegrationEnabled>
+    <link17arrow />
+    <link21text />
+  </attributes>
+  <arc>
+    <name>top Arc for 6.867</name>
+    <longName>top Arc for 6.867</longName>
+    <description />
+    <createdDate>2017-08-23 21:49:51.0</createdDate>
+    <createdBy>system</createdBy>
+    <getLastModifiedDate>2017-08-24 11:01:59.0</getLastModifiedDate>
+    <getLastModifiedBy>system</getLastModifiedBy>
+    <status>0</status>
+    <identifier>267b8e8b:15fa3906e0e:64ac:12092f49</identifier>
+    <useMetadata />
+    <pathSegment />
+    <arc>
+      <name>materials</name>
+      <longName>courseMaterial</longName>
+      <description />
+      <createdDate>2017-08-23 21:49:52.0</createdDate>
+      <createdBy>system</createdBy>
+      <getLastModifiedDate>2017-08-24 21:35:12.0</getLastModifiedDate>
+      <getLastModifiedBy>system</getLastModifiedBy>
+      <status>0</status>
+      <identifier>267b8e8b:15fa3906e0e:64ad:12092f49</identifier>
+      <useMetadata />
+      <pathSegment>courseMaterial</pathSegment>
+      <arc>
+        <name>topics</name>
+        <longName>topics</longName>
+        <description />
+        <createdDate>2017-08-23 21:49:52.0</createdDate>
+        <createdBy>system</createdBy>
+        <getLastModifiedDate>2017-10-31 11:51:50.0</getLastModifiedDate>
+        <getLastModifiedBy>system</getLastModifiedBy>
+        <status>0</status>
+        <identifier>267b8e8b:15fa3906e0e:64b2:12092f49</identifier>
+        <useMetadata />
+        <pathSegment>topics</pathSegment>
+        <arc>
+          <name>HW</name>
+          <longName>HW</longName>
+          <description>HW</description>
+          <createdDate>2017-08-23 21:49:52.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>2017-09-18 18:12:49.0</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6526:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic1</pathSegment>
+        </arc>
+        <arc>
+          <name>Handouts</name>
+          <longName>Handouts</longName>
+          <description>Handouts</description>
+          <createdDate>2017-08-27 17:56:52.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>2017-09-18 18:29:44.0</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6525:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic2</pathSegment>
+          <arc>
+            <name>syllabus</name>
+            <longName>syllabus</longName>
+            <description>syllabus</description>
+            <createdDate>2017-08-27 17:58:36.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>2017-09-18 18:29:44.0</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:6528:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>syllabus</pathSegment>
+            <arc>
+              <name>uploaded on 2017-09-18 18:29:44 EDT</name>
+              <longName>calendar.pdf uploaded on 2017-09-18 18:29:44 EDT</longName>
+              <description>uploaded on 2017-09-18 18:29:44 EDT</description>
+              <createdDate>2017-09-18 18:29:44.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-11-09 11:10:23.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6529:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>calendar</pathSegment>
+              <arc>
+                <name>calendar.pdf</name>
+                <longName>Information Sheet</longName>
+                <description />
+                <createdDate>2017-11-09 11:10:22.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-11-09 11:10:23.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:652a:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 9, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic2</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>syllabus</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>calendar.pdf</pathSegment>
+                <content>
+                  <name>calendar.pdf</name>
+                  <longName>Information Sheet</longName>
+                  <description />
+                  <createdDate>2017-11-09 11:10:22.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-11-09 11:10:23.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:652b:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>ac4ab97a:267b8e8b:15fa14c0f09:37f8:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>calendar.pdf</fileName>
+                    <size>88291</size>
+                    <pathSegment>calendar.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic2/syllabus/calendar/calendar.pdf/calendar.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+          <arc>
+            <name>project</name>
+            <longName>project</longName>
+            <description>project</description>
+            <createdDate>2017-09-18 18:13:56.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>2017-09-18 18:14:24.0</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:6527:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>project</pathSegment>
+          </arc>
+        </arc>
+        <arc>
+          <name>Lecture Material</name>
+          <longName>Lecture Material</longName>
+          <description>Lecture Material</description>
+          <createdDate>2017-09-07 13:33:51.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>Mon Dec 04 23:53:20 EST 2017</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6524:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic3</pathSegment>
+          <arc>
+            <name>lectureNotes</name>
+            <longName>lectureNotes</longName>
+            <description>lectureNotes</description>
+            <createdDate>2017-09-07 13:34:46.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>Mon Dec 04 23:53:20 EST 2017</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:652d:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>lectureNotes</pathSegment>
+            <arc>
+              <name>uploaded on 2017-09-07 13:34:45 EDT</name>
+              <longName>L1.pdf uploaded on 2017-09-07 13:34:45 EDT</longName>
+              <description>uploaded on 2017-09-07 13:34:45 EDT</description>
+              <createdDate>2017-09-07 13:34:46.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-07 13:34:46.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6534:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L1</pathSegment>
+              <arc>
+                <name>L1.pdf</name>
+                <longName>Lecture 1</longName>
+                <description>Lecture Notes</description>
+                <createdDate>2017-09-07 13:34:46.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-07 13:34:46.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:653f:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L1.pdf</pathSegment>
+                <content>
+                  <name>L1.pdf</name>
+                  <longName>Lecture 1</longName>
+                  <description>Lecture Notes</description>
+                  <createdDate>2017-09-07 13:34:46.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-07 13:34:46.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6540:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>113c8ba9:-55a5cd00:15e5d5b3918:-4d29:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L1.pdf</fileName>
+                    <size>2415004</size>
+                    <pathSegment>L1.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L1/L1.pdf/L1.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-09-12 12:18:30 EDT</name>
+              <longName>L2.pdf uploaded on 2017-09-12 12:18:30 EDT</longName>
+              <description>uploaded on 2017-09-12 12:18:30 EDT</description>
+              <createdDate>2017-09-12 12:18:32.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-12 12:18:32.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6532:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L2</pathSegment>
+              <arc>
+                <name>L2.pdf</name>
+                <longName>Lecture 2</longName>
+                <description />
+                <createdDate>2017-09-12 12:18:32.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-12 12:18:32.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6541:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L2.pdf</pathSegment>
+                <content>
+                  <name>L2.pdf</name>
+                  <longName>Lecture 2</longName>
+                  <description />
+                  <createdDate>2017-09-12 12:18:32.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-12 12:18:32.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6542:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>f35ad7ef:-55a5cd00:15e76de71e5:-6e7f:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L2.pdf</fileName>
+                    <size>2275734</size>
+                    <pathSegment>L2.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L2/L2.pdf/L2.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-09-14 11:57:58 EDT</name>
+              <longName>L3.pdf uploaded on 2017-09-14 11:57:58 EDT</longName>
+              <description>uploaded on 2017-09-14 11:57:58 EDT</description>
+              <createdDate>2017-09-14 11:58:00.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-14 11:58:00.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6531:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L3</pathSegment>
+              <arc>
+                <name>L3.pdf</name>
+                <longName>Lecture 3</longName>
+                <description />
+                <createdDate>2017-09-14 11:57:59.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-14 11:58:00.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6543:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L3.pdf</pathSegment>
+                <content>
+                  <name>L3.pdf</name>
+                  <longName>Lecture 3</longName>
+                  <description />
+                  <createdDate>2017-09-14 11:57:59.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-14 11:57:59.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6544:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>4be269e1:-55a5cd00:15e80e1ace8:60b8:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L3.pdf</fileName>
+                    <size>2461372</size>
+                    <pathSegment>L3.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L3/L3.pdf/L3.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-09-18 15:58:57 EDT</name>
+              <longName>L4.pdf uploaded on 2017-09-18 15:58:57 EDT</longName>
+              <description>uploaded on 2017-09-18 15:58:57 EDT</description>
+              <createdDate>2017-09-18 15:58:59.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-19 14:09:05.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6530:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L4</pathSegment>
+              <arc>
+                <name>L4.pdf</name>
+                <longName>Lecture 4</longName>
+                <description />
+                <createdDate>2017-09-19 14:09:05.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-19 14:09:05.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6545:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Sep 19, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L4.pdf</pathSegment>
+                <content>
+                  <name>L4.pdf</name>
+                  <longName>Lecture 4</longName>
+                  <description />
+                  <createdDate>2017-09-19 14:09:05.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-19 14:09:05.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6546:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>d63b8515:-55a5cd00:15e9b537250:-7d79:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L4.pdf</fileName>
+                    <size>3229622</size>
+                    <pathSegment>L4.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L4/L4.pdf/L4.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-09-21 19:02:58 EDT</name>
+              <longName>lect5.pdf uploaded on 2017-09-21 19:02:58 EDT</longName>
+              <description>uploaded on 2017-09-21 19:02:58 EDT</description>
+              <createdDate>2017-09-21 19:03:02.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-21 19:03:02.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:652f:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lect5</pathSegment>
+              <arc>
+                <name>lect5.pdf</name>
+                <longName>Lecture 5</longName>
+                <description>Typo fix version</description>
+                <createdDate>2017-09-21 19:03:01.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-21 19:03:01.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6547:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lect5.pdf</pathSegment>
+                <content>
+                  <name>lect5.pdf</name>
+                  <longName>Lecture 5</longName>
+                  <description>Typo fix version</description>
+                  <createdDate>2017-09-21 19:03:01.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-21 19:03:01.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6548:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>585d24ac:-55a5cd00:15ea65e9ae2:22bc:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lect5.pdf</fileName>
+                    <size>2660132</size>
+                    <pathSegment>lect5.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lect5/lect5.pdf/lect5.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-09-26 14:07:23 EDT</name>
+              <longName>logistic_lect.pdf uploaded on 2017-09-26 14:07:23 EDT</longName>
+              <description>uploaded on 2017-09-26 14:07:23 EDT</description>
+              <createdDate>2017-09-26 14:07:24.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-26 14:07:24.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:653b:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>logistic_lect</pathSegment>
+              <arc>
+                <name>logistic_lect.pdf</name>
+                <longName>Lecture 6</longName>
+                <description>Improved version</description>
+                <createdDate>2017-09-26 14:07:23.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-26 14:07:24.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6549:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>logistic_lect.pdf</pathSegment>
+                <content>
+                  <name>logistic_lect.pdf</name>
+                  <longName>Lecture 6</longName>
+                  <description>Improved version</description>
+                  <createdDate>2017-09-26 14:07:23.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-26 14:07:24.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:654a:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>95d09190:-55a5cd00:15ebf34554c:b29:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>logistic_lect.pdf</fileName>
+                    <size>3138441</size>
+                    <pathSegment>logistic_lect.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/logistic_lect/logistic_lect.pdf/logistic_lect.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-09-28 17:05:03 EDT</name>
+              <longName>svm_lect.pdf uploaded on 2017-09-28 17:05:03 EDT</longName>
+              <description>uploaded on 2017-09-28 17:05:03 EDT</description>
+              <createdDate>2017-09-28 17:05:04.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-28 17:05:04.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:653e:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>svm_lect</pathSegment>
+              <arc>
+                <name>svm_lect.pdf</name>
+                <longName>Lecture 7</longName>
+                <description>Bugfix version after class</description>
+                <createdDate>2017-09-28 17:05:04.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-28 17:05:04.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:654b:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>svm_lect.pdf</pathSegment>
+                <content>
+                  <name>svm_lect.pdf</name>
+                  <longName>Lecture 7</longName>
+                  <description>Bugfix version after class</description>
+                  <createdDate>2017-09-28 17:05:04.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-28 17:05:04.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:654c:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>7a6ec78d:-55a5cd00:15eca1ba4f9:4ba:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>svm_lect.pdf</fileName>
+                    <size>2725123</size>
+                    <pathSegment>svm_lect.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/svm_lect/svm_lect.pdf/svm_lect.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-03 14:11:12 EDT</name>
+              <longName>kernels_lect.pdf uploaded on 2017-10-03 14:11:12 EDT</longName>
+              <description>uploaded on 2017-10-03 14:11:12 EDT</description>
+              <createdDate>2017-10-03 14:11:14.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-03 14:11:14.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:653a:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>kernels_lect</pathSegment>
+              <arc>
+                <name>kernels_lect.pdf</name>
+                <longName>Lecture 8</longName>
+                <description>pre-class; typofix</description>
+                <createdDate>2017-10-03 14:11:14.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-03 14:11:14.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:654d:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>kernels_lect.pdf</pathSegment>
+                <content>
+                  <name>kernels_lect.pdf</name>
+                  <longName>Lecture 8</longName>
+                  <description>pre-class; typofix</description>
+                  <createdDate>2017-10-03 14:11:14.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-03 14:11:14.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:654e:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>b70dd16e:-55a5cd00:15ee342641d:c4b:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>kernels_lect.pdf</fileName>
+                    <size>7937157</size>
+                    <pathSegment>kernels_lect.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/kernels_lect/kernels_lect.pdf/kernels_lect.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-05 14:14:17 EDT</name>
+              <longName>lecture9.pdf uploaded on 2017-10-05 14:14:17 EDT</longName>
+              <description>uploaded on 2017-10-05 14:14:17 EDT</description>
+              <createdDate>2017-10-05 14:14:19.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-05 14:14:19.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:652e:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture9</pathSegment>
+              <arc>
+                <name>lecture9.pdf</name>
+                <longName>Lecture 9</longName>
+                <description />
+                <createdDate>2017-10-05 14:14:19.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-05 14:14:19.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:654f:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture9.pdf</pathSegment>
+                <content>
+                  <name>lecture9.pdf</name>
+                  <longName>Lecture 9</longName>
+                  <description />
+                  <createdDate>2017-10-05 14:14:19.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-05 14:14:19.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6550:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>55d5b62e:-55a5cd00:15eedb58080:-6160:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture9.pdf</fileName>
+                    <size>4978920</size>
+                    <pathSegment>lecture9.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture9/lecture9.pdf/lecture9.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-12 13:31:09 EDT</name>
+              <longName>nn_lect1.pdf uploaded on 2017-10-12 13:31:09 EDT</longName>
+              <description>uploaded on 2017-10-12 13:31:09 EDT</description>
+              <createdDate>2017-10-12 13:31:10.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-12 13:31:10.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6536:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>nn_lect1</pathSegment>
+              <arc>
+                <name>nn_lect1.pdf</name>
+                <longName>Lecture 10</longName>
+                <description>draft version</description>
+                <createdDate>2017-10-12 13:31:10.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-12 13:31:10.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6551:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>nn_lect1.pdf</pathSegment>
+                <content>
+                  <name>nn_lect1.pdf</name>
+                  <longName>Lecture 10</longName>
+                  <description>draft version</description>
+                  <createdDate>2017-10-12 13:31:10.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-12 13:31:10.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6552:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>02ed1704:-55a5cd00:15f119ee043:-71cd:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>nn_lect1.pdf</fileName>
+                    <size>3299489</size>
+                    <pathSegment>nn_lect1.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/nn_lect1/nn_lect1.pdf/nn_lect1.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-17 14:04:25 EDT</name>
+              <longName>nn_lect2.pdf uploaded on 2017-10-17 14:04:25 EDT</longName>
+              <description>uploaded on 2017-10-17 14:04:25 EDT</description>
+              <createdDate>2017-10-17 14:04:26.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-17 16:20:23.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6533:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>nn_lect2</pathSegment>
+              <arc>
+                <name>nn_lect2.pdf</name>
+                <longName>Lecture 11</longName>
+                <description />
+                <createdDate>2017-10-17 16:20:23.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-17 16:20:24.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6553:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Oct 17, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>nn_lect2.pdf</pathSegment>
+                <content>
+                  <name>nn_lect2.pdf</name>
+                  <longName>Lecture 11</longName>
+                  <description />
+                  <createdDate>2017-10-17 16:20:23.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-17 16:20:24.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6554:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>e9f663ff:-55a5cd00:15f2ba9ff47:7314:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>nn_lect2.pdf</fileName>
+                    <size>3292022</size>
+                    <pathSegment>nn_lect2.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/nn_lect2/nn_lect2.pdf/nn_lect2.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-24 14:21:03 EDT</name>
+              <longName>lecture12.pdf uploaded on 2017-10-24 14:21:03 EDT</longName>
+              <description>uploaded on 2017-10-24 14:21:03 EDT</description>
+              <createdDate>2017-10-24 14:21:04.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-11-03 12:10:35.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:653d:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture12</pathSegment>
+              <arc>
+                <name>lecture12.pdf</name>
+                <longName>Lecture 12</longName>
+                <description />
+                <createdDate>2017-11-03 12:10:34.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-11-03 12:10:35.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6555:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 3, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture12.pdf</pathSegment>
+                <content>
+                  <name>lecture12.pdf</name>
+                  <longName>Lecture 12</longName>
+                  <description />
+                  <createdDate>2017-11-03 12:10:34.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-11-03 12:10:35.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6556:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>461c6e22:267b8e8b:15f826a7bda:452e:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture12.pdf</fileName>
+                    <size>5106375</size>
+                    <pathSegment>lecture12.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture12/lecture12.pdf/lecture12.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-26 14:27:15 EDT</name>
+              <longName>lecture13.pdf uploaded on 2017-10-26 14:27:15 EDT</longName>
+              <description>uploaded on 2017-10-26 14:27:15 EDT</description>
+              <createdDate>2017-10-26 14:27:17.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-11-03 12:13:20.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:653c:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture13</pathSegment>
+              <arc>
+                <name>lecture13.pdf</name>
+                <longName>Lecture 13</longName>
+                <description />
+                <createdDate>2017-11-03 12:13:20.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-11-03 12:13:21.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6557:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 3, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture13.pdf</pathSegment>
+                <content>
+                  <name>lecture13.pdf</name>
+                  <longName>Lecture 13</longName>
+                  <description />
+                  <createdDate>2017-11-03 12:13:20.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-11-03 12:13:21.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6558:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>84f6d750:267b8e8b:15f826a7bda:4981:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture13.pdf</fileName>
+                    <size>7840710</size>
+                    <pathSegment>lecture13.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture13/lecture13.pdf/lecture13.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-10-31 14:27:33 EDT</name>
+              <longName>lecture14.pdf uploaded on 2017-10-31 14:27:33 EDT</longName>
+              <description>uploaded on 2017-10-31 14:27:33 EDT</description>
+              <createdDate>2017-10-31 14:27:35.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-31 16:22:00.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6539:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture14</pathSegment>
+              <arc>
+                <name>lecture14.pdf</name>
+                <longName>Lecture 14</longName>
+                <description />
+                <createdDate>2017-10-31 16:22:00.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-31 16:22:00.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6559:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Oct 31, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture14.pdf</pathSegment>
+                <content>
+                  <name>lecture14.pdf</name>
+                  <longName>Lecture 14</longName>
+                  <description />
+                  <createdDate>2017-10-31 16:22:00.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-31 16:22:00.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:655a:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>c36a17e7:267b8e8b:15f73e1d4c2:481b:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture14.pdf</fileName>
+                    <size>9197745</size>
+                    <pathSegment>lecture14.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture14/lecture14.pdf/lecture14.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-02 14:24:05 EDT</name>
+              <longName>lecture15.pdf uploaded on 2017-11-02 14:24:05 EDT</longName>
+              <description>uploaded on 2017-11-02 14:24:05 EDT</description>
+              <createdDate>2017-11-02 14:24:08.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-11-07 16:30:33.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6538:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture15</pathSegment>
+              <arc>
+                <name>lecture15.pdf</name>
+                <longName>Lecture 15</longName>
+                <description />
+                <createdDate>2017-11-07 16:30:33.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-11-07 16:30:33.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:655b:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 7, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture15.pdf</pathSegment>
+                <content>
+                  <name>lecture15.pdf</name>
+                  <longName>Lecture 15</longName>
+                  <description />
+                  <createdDate>2017-11-07 16:30:33.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-11-07 16:30:33.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:655c:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>57110fcd:267b8e8b:15f984d5998:-343e:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture15.pdf</fileName>
+                    <size>8820503</size>
+                    <pathSegment>lecture15.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture15/lecture15.pdf/lecture15.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-07 13:58:13 EST</name>
+              <longName>lecture16.pdf uploaded on 2017-11-07 13:58:13 EST</longName>
+              <description>uploaded on 2017-11-07 13:58:13 EST</description>
+              <createdDate>2017-11-07 13:58:15.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-11-07 21:51:24.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6537:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture16</pathSegment>
+              <arc>
+                <name>lecture16.pdf</name>
+                <longName>Lecture 16</longName>
+                <description />
+                <createdDate>2017-11-07 21:51:24.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-11-07 21:51:25.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:655d:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 7, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture16.pdf</pathSegment>
+                <content>
+                  <name>lecture16.pdf</name>
+                  <longName>Lecture 16</longName>
+                  <description />
+                  <createdDate>2017-11-07 21:51:24.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-11-07 21:51:25.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:655e:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>70a63c09:267b8e8b:15f996d3dc8:-307b:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture16.pdf</fileName>
+                    <size>8316956</size>
+                    <pathSegment>lecture16.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture16/lecture16.pdf/lecture16.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-09 14:08:02 EST</name>
+              <longName>lecture17.pdf uploaded on 2017-11-09 14:08:02 EST</longName>
+              <description>uploaded on 2017-11-09 14:08:02 EST</description>
+              <createdDate>2017-11-09 14:08:03.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-11-09 17:38:22.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6535:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture17</pathSegment>
+              <arc>
+                <name>lecture17.pdf</name>
+                <longName>Lecture 17</longName>
+                <description />
+                <createdDate>2017-11-09 17:38:21.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-11-09 17:38:22.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:655f:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 9, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture17.pdf</pathSegment>
+                <content>
+                  <name>lecture17.pdf</name>
+                  <longName>Lecture 17</longName>
+                  <description />
+                  <createdDate>2017-11-09 17:38:21.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-11-09 17:38:22.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6560:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>90ad511a:267b8e8b:15fa2da1ae5:-58ca:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture17.pdf</fileName>
+                    <size>2703364</size>
+                    <pathSegment>lecture17.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture17/lecture17.pdf/lecture17.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-14 14:34:47 EST</name>
+              <longName>lecture18.pdf uploaded on 2017-11-14 14:34:47 EST</longName>
+              <description>uploaded on 2017-11-14 14:34:47 EST</description>
+              <createdDate>Tue Nov 14 14:34:49 EST 2017</createdDate>
+              <createdBy />
+              <getLastModifiedDate>Tue Nov 14 17:50:32 EST 2017</getLastModifiedDate>
+              <getLastModifiedBy />
+              <status>0</status>
+              <identifier>267b8e8b:15fbbda405f:b7d:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture18</pathSegment>
+              <arc>
+                <name>lecture18.pdf</name>
+                <longName>Lecture 18</longName>
+                <description>Updated with derivation of score function estimator</description>
+                <createdDate>Tue Nov 14 17:50:32 EST 2017</createdDate>
+                <createdBy />
+                <getLastModifiedDate>Tue Nov 14 17:50:32 EST 2017</getLastModifiedDate>
+                <getLastModifiedBy />
+                <status>0</status>
+                <identifier>267b8e8b:15fbc75f380:6afe:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 14, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture18.pdf</pathSegment>
+                <content>
+                  <name>lecture18.pdf</name>
+                  <longName>Lecture 18</longName>
+                  <description>Updated with derivation of score function estimator</description>
+                  <createdDate>Tue Nov 14 17:50:32 EST 2017</createdDate>
+                  <createdBy />
+                  <getLastModifiedDate>Tue Nov 14 17:50:32 EST 2017</getLastModifiedDate>
+                  <getLastModifiedBy />
+                  <status>0</status>
+                  <identifier>267b8e8b:15fbc75f380:6b01:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModName>true</showLastModName>
+                    <showLastModDate>true</showLastModDate>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>8aea340d:267b8e8b:15fbc75f380:6afb:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>lecture18.pdf</fileName>
+                    <size>8483589</size>
+                    <pathSegment>lecture18.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/lecture18/lecture18.pdf/lecture18.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-16 13:48:44 EST</name>
+              <longName>sampling_lect.pdf uploaded on 2017-11-16 13:48:44 EST</longName>
+              <description>uploaded on 2017-11-16 13:48:44 EST</description>
+              <createdDate>Thu Nov 16 13:48:47 EST 2017</createdDate>
+              <createdBy />
+              <getLastModifiedDate>Thu Nov 16 14:22:29 EST 2017</getLastModifiedDate>
+              <getLastModifiedBy />
+              <status>0</status>
+              <identifier>267b8e8b:15fc5df8f3c:50dd:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>sampling_lect</pathSegment>
+              <arc>
+                <name>sampling_lect.pdf</name>
+                <longName>Lecture 19</longName>
+                <description>draft version</description>
+                <createdDate>Thu Nov 16 14:22:29 EST 2017</createdDate>
+                <createdBy />
+                <getLastModifiedDate>Thu Nov 16 14:22:29 EST 2017</getLastModifiedDate>
+                <getLastModifiedBy />
+                <status>0</status>
+                <identifier>267b8e8b:15fc63a7f5c:-57a2:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 16, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>suvrit@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>sampling_lect.pdf</pathSegment>
+                <content>
+                  <name>sampling_lect.pdf</name>
+                  <longName>Lecture 19</longName>
+                  <description>draft version</description>
+                  <createdDate>Thu Nov 16 14:22:29 EST 2017</createdDate>
+                  <createdBy />
+                  <getLastModifiedDate>Thu Nov 16 14:22:29 EST 2017</getLastModifiedDate>
+                  <getLastModifiedBy />
+                  <status>0</status>
+                  <identifier>267b8e8b:15fc63a7f5c:-57a1:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModName>true</showLastModName>
+                    <showLastModDate>true</showLastModDate>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>315a454c:267b8e8b:15fc63a7f5c:-57a4:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>sampling_lect.pdf</fileName>
+                    <size>4148581</size>
+                    <pathSegment>sampling_lect.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/sampling_lect/sampling_lect.pdf/sampling_lect.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-21 08:32:19 EST</name>
+              <longName>L20.pdf uploaded on 2017-11-21 08:32:19 EST</longName>
+              <description>uploaded on 2017-11-21 08:32:19 EST</description>
+              <createdDate>Tue Nov 21 08:32:28 EST 2017</createdDate>
+              <createdBy />
+              <getLastModifiedDate>Tue Nov 28 07:28:20 EST 2017</getLastModifiedDate>
+              <getLastModifiedBy />
+              <status>0</status>
+              <identifier>267b8e8b:15fdeac701a:-6a7f:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L20</pathSegment>
+              <arc>
+                <name>L20.pdf</name>
+                <longName>Lecture 20</longName>
+                <description>PCA</description>
+                <createdDate>Tue Nov 28 07:28:20 EST 2017</createdDate>
+                <createdBy />
+                <getLastModifiedDate>Tue Nov 28 07:28:20 EST 2017</getLastModifiedDate>
+                <getLastModifiedBy />
+                <status>0</status>
+                <identifier>267b8e8b:1600123e2be:287d:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Nov 28, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L20.pdf</pathSegment>
+                <content>
+                  <name>L20.pdf</name>
+                  <longName>Lecture 20</longName>
+                  <description>PCA</description>
+                  <createdDate>Tue Nov 28 07:28:20 EST 2017</createdDate>
+                  <createdBy />
+                  <getLastModifiedDate>Tue Nov 28 07:28:20 EST 2017</getLastModifiedDate>
+                  <getLastModifiedBy />
+                  <status>0</status>
+                  <identifier>267b8e8b:1600123e2be:287e:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModName>true</showLastModName>
+                    <showLastModDate>true</showLastModDate>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>9ce3dd48:267b8e8b:1600123e2be:287b:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L20.pdf</fileName>
+                    <size>6114761</size>
+                    <pathSegment>L20.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L20/L20.pdf/L20.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-11-28 07:30:24 EST</name>
+              <longName>L21.pdf uploaded on 2017-11-28 07:30:24 EST</longName>
+              <description>uploaded on 2017-11-28 07:30:24 EST</description>
+              <createdDate>Tue Nov 28 07:30:30 EST 2017</createdDate>
+              <createdBy />
+              <getLastModifiedDate>Tue Nov 28 07:30:30 EST 2017</getLastModifiedDate>
+              <getLastModifiedBy />
+              <status>0</status>
+              <identifier>267b8e8b:1600123e2be:2904:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L21</pathSegment>
+              <arc>
+                <name>L21.pdf</name>
+                <longName>Lecture 21</longName>
+                <description>Matrix Estimation</description>
+                <createdDate>Tue Nov 28 07:30:30 EST 2017</createdDate>
+                <createdBy />
+                <getLastModifiedDate>Tue Nov 28 07:30:30 EST 2017</getLastModifiedDate>
+                <getLastModifiedBy />
+                <status>0</status>
+                <identifier>267b8e8b:1600123e2be:2902:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L21.pdf</pathSegment>
+                <content>
+                  <name>L21.pdf</name>
+                  <longName>Lecture 21</longName>
+                  <description>Matrix Estimation</description>
+                  <createdDate>Tue Nov 28 07:30:30 EST 2017</createdDate>
+                  <createdBy />
+                  <getLastModifiedDate>Tue Nov 28 07:30:30 EST 2017</getLastModifiedDate>
+                  <getLastModifiedBy />
+                  <status>0</status>
+                  <identifier>267b8e8b:1600123e2be:2903:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModName>true</showLastModName>
+                    <showLastModDate>true</showLastModDate>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>3c67f9fd:267b8e8b:1600123e2be:2900:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L21.pdf</fileName>
+                    <size>4184823</size>
+                    <pathSegment>L21.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L21/L21.pdf/L21.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-12-04 23:53:18 EST</name>
+              <longName>L22.pdf uploaded on 2017-12-04 23:53:18 EST</longName>
+              <description>uploaded on 2017-12-04 23:53:18 EST</description>
+              <createdDate>Mon Dec 04 23:53:20 EST 2017</createdDate>
+              <createdBy />
+              <getLastModifiedDate>Mon Dec 04 23:53:20 EST 2017</getLastModifiedDate>
+              <getLastModifiedBy />
+              <status>0</status>
+              <identifier>267b8e8b:16024cc2309:-5a2:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>L22</pathSegment>
+              <arc>
+                <name>L22.pdf</name>
+                <longName>Lecture 22</longName>
+                <description>Non-negative matrix factorization</description>
+                <createdDate>Mon Dec 04 23:53:20 EST 2017</createdDate>
+                <createdBy />
+                <getLastModifiedDate>Mon Dec 04 23:53:20 EST 2017</getLastModifiedDate>
+                <getLastModifiedBy />
+                <status>0</status>
+                <identifier>267b8e8b:16024cc2309:-5a4:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>L22.pdf</pathSegment>
+                <content>
+                  <name>L22.pdf</name>
+                  <longName>Lecture 22</longName>
+                  <description>Non-negative matrix factorization</description>
+                  <createdDate>Mon Dec 04 23:53:20 EST 2017</createdDate>
+                  <createdBy />
+                  <getLastModifiedDate>Mon Dec 04 23:53:20 EST 2017</getLastModifiedDate>
+                  <getLastModifiedBy />
+                  <status>0</status>
+                  <identifier>267b8e8b:16024cc2309:-5a3:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModName>true</showLastModName>
+                    <showLastModDate>true</showLastModDate>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>5a327eaa:267b8e8b:16024cc2309:-5a6:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>L22.pdf</fileName>
+                    <size>1424961</size>
+                    <pathSegment>L22.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic3/lectureNotes/L22/L22.pdf/L22.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+          <arc>
+            <name>resource</name>
+            <longName>resource</longName>
+            <description>resource</description>
+            <createdDate>2017-10-26 17:18:27.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>2017-10-26 17:18:27.0</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:652c:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>resource</pathSegment>
+            <arc>
+              <name>uploaded on 2017-10-26 17:18:27 EDT</name>
+              <longName>lecture13_word_embeddings.ipynb uploaded on 2017-10-26 17:18:27 EDT</longName>
+              <description>uploaded on 2017-10-26 17:18:27 EDT</description>
+              <createdDate>2017-10-26 17:18:27.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-26 17:18:27.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6561:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>lecture13_word_embeddings</pathSegment>
+              <arc>
+                <name>lecture13_word_embeddings.ipynb</name>
+                <longName>Lecture 13 iPython notebook</longName>
+                <description>Exploration of word embeddings</description>
+                <createdDate>2017-10-26 17:18:27.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-26 17:18:39.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6562:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Oct 26, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic3</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>resource</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>dsontag@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>lecture13_word_embeddings.ipynb</pathSegment>
+                <content>
+                  <name>lecture13_word_embeddings.ipynb</name>
+                  <longName>Lecture 12 iPython notebook</longName>
+                  <description>Exploration of word embeddings</description>
+                  <createdDate>2017-10-26 17:18:27.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-26 17:18:38.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6563:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>f2d84f21:267b8e8b:15f5a3dc0bf:632f:12092f49</id>
+                    <type>application/octet-stream</type>
+                    <fileName>lecture13_word_embeddings.ipynb</fileName>
+                    <size>73856</size>
+                    <pathSegment>lecture13_word_embeddings.ipynb</pathSegment>
+                    <path>courseMaterial/topics/topic3/resource/lecture13_word_embeddings/lecture13_word_embeddings.ipynb/lecture13_word_embeddings.ipynb</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+        </arc>
+        <arc>
+          <name>Exercises</name>
+          <longName>Exercises</longName>
+          <description>Exercises</description>
+          <createdDate>2017-09-12 14:32:45.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>Tue Dec 05 23:30:58 EST 2017</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6523:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic4</pathSegment>
+          <arc>
+            <name>studyMaterial</name>
+            <longName>studyMaterial</longName>
+            <description>studyMaterial</description>
+            <createdDate>2017-09-19 11:08:41.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>Tue Dec 05 23:32:16 EST 2017</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:6564:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>studyMaterial</pathSegment>
+          </arc>
+        </arc>
+        <arc>
+          <name>Project</name>
+          <longName>Project</longName>
+          <description>Project</description>
+          <createdDate>2017-09-19 11:35:53.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>2017-09-19 11:37:12.0</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6522:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic5</pathSegment>
+          <arc>
+            <name>project</name>
+            <longName>project</longName>
+            <description>project</description>
+            <createdDate>2017-09-19 11:37:12.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>2017-09-19 11:37:12.0</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:6565:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>project</pathSegment>
+            <arc>
+              <name>uploaded on 2017-09-19 11:37:12 EDT</name>
+              <longName>proj2017.pdf uploaded on 2017-09-19 11:37:12 EDT</longName>
+              <description>uploaded on 2017-09-19 11:37:12 EDT</description>
+              <createdDate>2017-09-19 11:37:12.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-09-19 11:37:12.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6566:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>proj2017</pathSegment>
+              <arc>
+                <name>proj2017.pdf</name>
+                <longName>Project Description</longName>
+                <description>Describes the milestones and expectations from a project</description>
+                <createdDate>2017-09-19 11:37:12.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-09-19 11:37:12.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6567:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic5</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>project</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>devavrat@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>proj2017.pdf</pathSegment>
+                <content>
+                  <name>proj2017.pdf</name>
+                  <longName>Project Description</longName>
+                  <description>Describes the milestones and expectations from a project</description>
+                  <createdDate>2017-09-19 11:37:12.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-09-19 11:37:12.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6568:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>ec78e918:-55a5cd00:15e9abc29be:-55af:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>proj2017.pdf</fileName>
+                    <size>89463</size>
+                    <pathSegment>proj2017.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic5/project/proj2017/proj2017.pdf/proj2017.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+        </arc>
+        <arc>
+          <name>Supplementary Materials</name>
+          <longName>Supplementary Materials</longName>
+          <description>Supplementary Materials</description>
+          <createdDate>2017-10-03 16:59:52.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>2017-10-03 17:01:56.0</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6521:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic6</pathSegment>
+          <arc>
+            <name>lectureNotes</name>
+            <longName>lectureNotes</longName>
+            <description>lectureNotes</description>
+            <createdDate>2017-10-03 17:00:53.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>2017-10-03 17:00:53.0</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:656a:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>lectureNotes</pathSegment>
+            <arc>
+              <name>uploaded on 2017-10-03 17:00:52 EDT</name>
+              <longName>6867_pegasos_supplementary_slides.pdf uploaded on 2017-10-03 17:00:52 EDT</longName>
+              <description>uploaded on 2017-10-03 17:00:52 EDT</description>
+              <createdDate>2017-10-03 17:00:53.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-03 17:00:53.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:656b:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>6867_pegasos_supplementary_slides</pathSegment>
+              <arc>
+                <name>6867_pegasos_supplementary_slides.pdf</name>
+                <longName>Pegasos Slides</longName>
+                <description>Supplementary Material for Homework 2</description>
+                <createdDate>2017-10-03 17:00:53.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-03 17:00:53.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:656c:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic6</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>lectureNotes</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>cgn@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>6867_pegasos_supplementary_slides.pdf</pathSegment>
+                <content>
+                  <name>6867_pegasos_supplementary_slides.pdf</name>
+                  <longName>Pegasos Slides</longName>
+                  <description>Supplementary Material for Homework 2</description>
+                  <createdDate>2017-10-03 17:00:53.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-03 17:00:53.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:656d:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>56665898:-55a5cd00:15ee3d9c1eb:18c3:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>6867_pegasos_supplementary_slides.pdf</fileName>
+                    <size>3419252</size>
+                    <pathSegment>6867_pegasos_supplementary_slides.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic6/lectureNotes/6867_pegasos_supplementary_slides/6867_pegasos_supplementary_slides.pdf/6867_pegasos_supplementary_slides.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+          <arc>
+            <name>resource</name>
+            <longName>resource</longName>
+            <description>resource</description>
+            <createdDate>2017-10-03 17:01:56.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>2017-10-03 17:01:56.0</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:6569:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>resource</pathSegment>
+            <arc>
+              <name>uploaded on 2017-10-03 17:01:56 EDT</name>
+              <longName>shalev-shwartz-pegasos-publication.pdf uploaded on 2017-10-03 17:01:56 EDT</longName>
+              <description>uploaded on 2017-10-03 17:01:56 EDT</description>
+              <createdDate>2017-10-03 17:01:56.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-03 17:01:56.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:656e:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>shalev-shwartz-pegasos-publication</pathSegment>
+              <arc>
+                <name>shalev-shwartz-pegasos-publication.pdf</name>
+                <longName>Pegasos Publication</longName>
+                <description>The original paper on Pegasos implementation of SVM. Supplementary material for Homework 2.</description>
+                <createdDate>2017-10-03 17:01:56.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-03 17:02:17.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:656f:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>lastUsedStartDate</key>
+                    <value>Oct 3, 2017</value>
+                    <javaClass>java.util.Date</javaClass>
+                  </item>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic6</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>resource</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>cgn@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>shalev-shwartz-pegasos-publication.pdf</pathSegment>
+                <content>
+                  <name>shalev-shwartz-pegasos-publication.pdf</name>
+                  <longName>Pegasos Publication</longName>
+                  <description>The original paper on Pegasos implementation of SVM</description>
+                  <createdDate>2017-10-03 17:01:56.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-03 17:02:17.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6570:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>9250d062:-55a5cd00:15ee3d9c1eb:1cda:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>shalev-shwartz-pegasos-publication.pdf</fileName>
+                    <size>317289</size>
+                    <pathSegment>shalev-shwartz-pegasos-publication.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic6/resource/shalev-shwartz-pegasos-publication/shalev-shwartz-pegasos-publication.pdf/shalev-shwartz-pegasos-publication.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+        </arc>
+        <arc>
+          <name>Practice Exams</name>
+          <longName>Practice Exams</longName>
+          <description>Practice Exams</description>
+          <createdDate>2017-10-14 21:08:17.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>2017-10-14 21:08:19.0</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:6520:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic7</pathSegment>
+        </arc>
+        <arc>
+          <name>Exams</name>
+          <longName>Exams</longName>
+          <description>Exams</description>
+          <createdDate>2017-10-31 11:51:50.0</createdDate>
+          <createdBy>system</createdBy>
+          <getLastModifiedDate>Mon Dec 04 15:27:01 EST 2017</getLastModifiedDate>
+          <getLastModifiedBy>system</getLastModifiedBy>
+          <status>0</status>
+          <identifier>267b8e8b:15fa3906e0e:651f:12092f49</identifier>
+          <useMetadata />
+          <pathSegment>topic8</pathSegment>
+          <arc>
+            <name>exam</name>
+            <longName>exam</longName>
+            <description>exam</description>
+            <createdDate>2017-10-31 11:59:37.0</createdDate>
+            <createdBy>system</createdBy>
+            <getLastModifiedDate>Mon Dec 04 15:27:01 EST 2017</getLastModifiedDate>
+            <getLastModifiedBy>system</getLastModifiedBy>
+            <status>0</status>
+            <identifier>267b8e8b:15fa3906e0e:6571:12092f49</identifier>
+            <useMetadata />
+            <pathSegment>exam</pathSegment>
+            <arc>
+              <name>uploaded on 2017-10-31 11:59:37 EDT</name>
+              <longName>exam1.pdf uploaded on 2017-10-31 11:59:37 EDT</longName>
+              <description>uploaded on 2017-10-31 11:59:37 EDT</description>
+              <createdDate>2017-10-31 11:59:37.0</createdDate>
+              <createdBy>system</createdBy>
+              <getLastModifiedDate>2017-10-31 11:59:37.0</getLastModifiedDate>
+              <getLastModifiedBy>system</getLastModifiedBy>
+              <status>0</status>
+              <identifier>267b8e8b:15fa3906e0e:6572:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>exam1</pathSegment>
+              <arc>
+                <name>exam1.pdf</name>
+                <longName>Exam 1 Solution</longName>
+                <description />
+                <createdDate>2017-10-31 11:59:37.0</createdDate>
+                <createdBy>system</createdBy>
+                <getLastModifiedDate>2017-10-31 11:59:37.0</getLastModifiedDate>
+                <getLastModifiedBy>system</getLastModifiedBy>
+                <status>0</status>
+                <identifier>267b8e8b:15fa3906e0e:6573:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic8</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>exam</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>ckzhang@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>exam1.pdf</pathSegment>
+                <content>
+                  <name>exam1.pdf</name>
+                  <longName>Exam 1 Solution</longName>
+                  <description />
+                  <createdDate>2017-10-31 11:59:37.0</createdDate>
+                  <createdBy>system</createdBy>
+                  <getLastModifiedDate>2017-10-31 11:59:37.0</getLastModifiedDate>
+                  <getLastModifiedBy>system</getLastModifiedBy>
+                  <status>0</status>
+                  <identifier>267b8e8b:15fa3906e0e:6574:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModDate>true</showLastModDate>
+                    <showLastModName>true</showLastModName>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>8c6d60de:267b8e8b:15f731cbc1d:-50e2:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>exam1.pdf</fileName>
+                    <size>164982</size>
+                    <pathSegment>exam1.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic8/exam/exam1/exam1.pdf/exam1.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+            <arc>
+              <name>uploaded on 2017-12-04 15:27:01 EST</name>
+              <longName>exam2_final_solutions.pdf uploaded on 2017-12-04 15:27:01 EST</longName>
+              <description>uploaded on 2017-12-04 15:27:01 EST</description>
+              <createdDate>Mon Dec 04 15:27:01 EST 2017</createdDate>
+              <createdBy />
+              <getLastModifiedDate>Mon Dec 04 15:27:01 EST 2017</getLastModifiedDate>
+              <getLastModifiedBy />
+              <status>0</status>
+              <identifier>267b8e8b:16023216f31:-3aff:12092f49</identifier>
+              <useMetadata />
+              <pathSegment>exam2_final_solutions</pathSegment>
+              <arc>
+                <name>exam2_final_solutions.pdf</name>
+                <longName>Exam 2 Solution</longName>
+                <description />
+                <createdDate>Mon Dec 04 15:27:01 EST 2017</createdDate>
+                <createdBy />
+                <getLastModifiedDate>Mon Dec 04 15:27:01 EST 2017</getLastModifiedDate>
+                <getLastModifiedBy />
+                <status>0</status>
+                <identifier>267b8e8b:16023216f31:-3b01:12092f49</identifier>
+                <useMetadata>
+                  <item>
+                    <key>topic</key>
+                    <value>../courseMaterial/topics/topic8</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>kind</key>
+                    <value>exam</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>originator</key>
+                    <value>hhcho@mit.edu</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModName</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                  <item>
+                    <key>showLastModDate</key>
+                    <value>true</value>
+                    <javaClass>java.lang.String</javaClass>
+                  </item>
+                </useMetadata>
+                <pathSegment>exam2_final_solutions.pdf</pathSegment>
+                <content>
+                  <name>exam2_final_solutions.pdf</name>
+                  <longName>Exam 2 Solution</longName>
+                  <description />
+                  <createdDate>Mon Dec 04 15:27:01 EST 2017</createdDate>
+                  <createdBy />
+                  <getLastModifiedDate>Mon Dec 04 15:27:01 EST 2017</getLastModifiedDate>
+                  <getLastModifiedBy />
+                  <status>0</status>
+                  <identifier>267b8e8b:16023216f31:-3b00:12092f49</identifier>
+                  <keyValueMetadata>
+                    <e-reserves-citation-notes />
+                    <e-reserves-citation-author />
+                    <e-reserves-citation-source />
+                    <e-reserves-citation-title />
+                    <showLastModName>true</showLastModName>
+                    <showLastModDate>true</showLastModDate>
+                  </keyValueMetadata>
+                  <pathSegment />
+                  <contentAtom>
+                    <id>1ec279b1:267b8e8b:16023216f31:-3b03:12092f49</id>
+                    <type>application/pdf</type>
+                    <fileName>exam2_final_solutions.pdf</fileName>
+                    <size>171882</size>
+                    <pathSegment>exam2_final_solutions.pdf</pathSegment>
+                    <path>courseMaterial/topics/topic8/exam/exam2_final_solutions/exam2_final_solutions.pdf/exam2_final_solutions.pdf</path>
+                  </contentAtom>
+                </content>
+              </arc>
+            </arc>
+          </arc>
+        </arc>
+      </arc>
+    </arc>
+  </arc>
+</nexus>
+
